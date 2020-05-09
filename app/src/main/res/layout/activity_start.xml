@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StartActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/tvGameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/demoBtn"
+            android:layout_width="@dimen/answerBtn_width"
+            android:layout_height="@dimen/answerBtn_height"
+            android:layout_marginBottom="30dp"
+            android:text="Demo"
+            android:background="@drawable/shape"
+            android:textColor="#fff"/>
+
+        />
+
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="@dimen/answerBtn_width"
+            android:layout_height="@dimen/answerBtn_height"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/shape"
+            android:text="PLAY"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+            />
+
+        <Button
+            android:id="@+id/backtoHome"
+            android:layout_width="@dimen/answerBtn_width"
+            android:layout_height="@dimen/answerBtn_height"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="30dp"
+            android:textAllCaps="false"
+            android:text="Back to Home"
+            android:background="@drawable/shape"
+            android:textColor="#fff"/>
+        />
+
+        <!--<Button-->
+            <!--android:id="@+id/demoBtn"-->
+            <!--android:layout_width="@dimen/answerBtn_width"-->
+            <!--android:layout_height="@dimen/answerBtn_height"-->
+            <!--android:text="Demo"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:visibility="invisible"-->
+            <!--android:background="@drawable/shape"-->
+            <!--android:textColor="#fff"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/asia"-->
+            <!--android:layout_width="@dimen/answerBtn_width"-->
+            <!--android:layout_height="@dimen/answerBtn_height"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:text="Level 1"-->
+            <!--android:background="@drawable/shape"-->
+            <!--android:textColor="#fff"/>-->
+
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/america"-->
+            <!--android:layout_width="@dimen/answerBtn_width"-->
+            <!--android:layout_height="@dimen/answerBtn_height"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:text="Level 2"-->
+            <!--android:background="@drawable/shape"-->
+            <!--android:textColor="#fff"/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/europe"-->
+            <!--android:layout_width="@dimen/answerBtn_width"-->
+            <!--android:layout_height="@dimen/answerBtn_height"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--android:text="Level 3"-->
+            <!--android:background="@drawable/shape"-->
+            <!--android:textColor="#fff"/>-->
+
+    </LinearLayout>
+
+</LinearLayout>

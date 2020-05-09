@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Game3_Main">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtTime"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:enabled="false"
+                android:inputType="none"
+                android:minWidth="120dp"
+                android:text="Time: 0"
+                android:textColor="@drawable/timer"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtScore"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:enabled="false"
+                android:inputType="none"
+                android:text="Score: 0"
+                android:textColor="@drawable/score"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnPause"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:minWidth="100dp"
+                android:text="Pause"
+                android:textColor="#fff" />
+
+            <Button
+                android:id="@+id/btnNew"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/shape"
+                android:minWidth="100dp"
+                android:text="New Game"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblGameOver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minLines="2"
+                android:singleLine="false"
+                android:text="Game Over!\nThank you for playing!"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="25dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnMole1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:cropToPadding="true"
+                android:src="@drawable/pipe1" />
+
+            <ImageView
+                android:id="@+id/btnMole2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe2" />
+
+            <ImageView
+                android:id="@+id/btnMole3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnMole4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe4" />
+
+            <ImageView
+                android:id="@+id/btnMole5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe5" />
+
+            <ImageView
+                android:id="@+id/btnMole6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe6" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btnMole7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe7" />
+
+            <ImageView
+                android:id="@+id/btnMole8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe8" />
+
+            <ImageView
+                android:id="@+id/btnMole9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/pipe9" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

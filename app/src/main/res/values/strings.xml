@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="textView_subtitle">Latest Result</string>
+    <string name="button1">Quizz</string>
+    <string name="button2">Puzzle</string>
+    <string name="button3">Waterpipe</string>
+
+    <string name="textView_GameName">Name</string>
+    <string name="textView_GameScore">Score</string>
+</resources>

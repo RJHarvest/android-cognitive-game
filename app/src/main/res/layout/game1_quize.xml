@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        android:textSize="22sp"
+        android:layout_margin="30dp"
+        android:textColor="#FFF"/>
+
+    <ImageView
+        android:id="@+id/textimageIV"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/demo1"
+    />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="24sp"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:id="@+id/countDown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Countdown: "
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="answer1"
+        android:layout_marginTop="20dp"
+        android:visibility="invisible"
+        android:background="@drawable/shape"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="answer2"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:background="@drawable/shape"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="answer3"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:background="@drawable/shape"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text="answer4"
+        android:layout_marginTop="10dp"
+        android:visibility="invisible"
+        android:background="@drawable/shape"
+        android:textColor="#fff"/>
+</LinearLayout>
